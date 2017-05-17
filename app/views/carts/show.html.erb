@@ -43,7 +43,7 @@
           data-name="Jungle"
           data-description="Khurram Virani's Jungle Order"
           data-locale="auto"
-          data-email="kvirani@gmail.com"
+          data-email="<%= User.find(session[:user_id]).email %>"
           data-currency="cad">
         </script>
       <% end %>
